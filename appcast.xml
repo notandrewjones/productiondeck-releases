@@ -7,6 +7,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ProductionDeck updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.6.1</title>
+      <pubDate>Sun, 15 Nov 2026 16:44:04 GMT</pubDate>
+      <sparkle:version>48</sparkle:version>
+      <sparkle:shortVersionString>1.6.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://updates.productiondeck.io/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<!doctype html><html><head><meta charset="utf-8"><title>ProductionDeck 1.6.1</title><style>:root { color-scheme: light dark; }
+body { font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+       margin: 0; padding: 4px 14px 14px; color: #1d1d1f; background: transparent; }
+h2 { font-size: 15px; margin: 18px 0 2px; }
+h2 .date { font-weight: normal; color: #6e6e73; font-size: 12px; margin-left: 6px; }
+h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: #6e6e73; margin: 14px 0 4px; }
+ul { margin: 4px 0; padding-left: 18px; }
+li { margin: 3px 0; }
+p { margin: 6px 0; }
+code { font: 12px ui-monospace, SFMono-Regular, Menlo, monospace; }
+a { color: #0066cc; }
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  h2 .date, h3 { color: #a1a1a6; }
+  a { color: #4ea1ff; }
+}</style></head><body><h2>1.6.1<span class="date">2026-11-15</span></h2><h3>Fixed</h3><ul><li><strong>Find Receivers finds Shure receivers on 169.254.x.x networks.</strong> Networks without a DHCP server were skipped, so the scan found nothing there. It now also listens for the announcements Shure receivers send (the way Wireless Workbench finds them), confirms each one, and adds it pinned to the network interface it was heard on. If a Shure device announces itself but doesn't answer, or another app is holding the discovery port, the sheet says so.</li><li><strong>Receivers that change their 169.254.x.x address are found again.</strong> The automatic address recovery now listens for those announcements instead of searching a range too small for a link-local network.</li><li><strong>A refused Shure connection points at the likely mistake.</strong> Dante Controller shows a receiver's Dante address, which is on the same jack but doesn't accept control connections. The message now says to use the receiver's Shure Control address instead.</li></ul></body></html>
+]]></description>
+      <enclosure url="https://github.com/notandrewjones/productiondeck-releases/releases/download/v1.6.1/ProductionDeck-1.6.1.zip" length="13365822" type="application/octet-stream" sparkle:edSignature="xTzC16rdOpBA3wrJg9rJ8gRaERdHJ9g3UilBZ7uVgGdMisUe8jq21n8giTWHoDIkTYzT0rClGt+/MzjM+ARrDQ=="></enclosure>
+    </item>
+    <item>
       <title>Version 1.6.0</title>
       <pubDate>Sun, 15 Nov 2026 14:46:23 GMT</pubDate>
       <sparkle:version>47</sparkle:version>
@@ -219,6 +245,6 @@ a { color: #0066cc; }
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: X2Z2o1a+vtO8XUwlNqcGVG/2GHEZZakJxAfVxiuqOYDk/nnLCdOtBlE3fUxwogppTupY/iR3T2HsyGdWen0mDw==
-length: 56452
+edSignature: vBiHOWlb2/SfFzwvVIFZ+sVLntmji4XRVXQrNk28sscUDzjYHCiy3fmkY84w87YltVF0tglcC3xTqxtq4xKXCw==
+length: 59129
 -->
