@@ -7,6 +7,32 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <description>ProductionDeck updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.5.3</title>
+      <pubDate>Sun, 15 Nov 2026 03:20:01 GMT</pubDate>
+      <sparkle:version>46</sparkle:version>
+      <sparkle:shortVersionString>1.5.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
+      <sparkle:fullReleaseNotesLink>https://updates.productiondeck.io/changelog.html</sparkle:fullReleaseNotesLink>
+      <description><![CDATA[<!doctype html><html><head><meta charset="utf-8"><title>ProductionDeck 1.5.3</title><style>:root { color-scheme: light dark; }
+body { font: 13px/1.45 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+       margin: 0; padding: 4px 14px 14px; color: #1d1d1f; background: transparent; }
+h2 { font-size: 15px; margin: 18px 0 2px; }
+h2 .date { font-weight: normal; color: #6e6e73; font-size: 12px; margin-left: 6px; }
+h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: #6e6e73; margin: 14px 0 4px; }
+ul { margin: 4px 0; padding-left: 18px; }
+li { margin: 3px 0; }
+p { margin: 6px 0; }
+code { font: 12px ui-monospace, SFMono-Regular, Menlo, monospace; }
+a { color: #0066cc; }
+@media (prefers-color-scheme: dark) {
+  body { color: #f5f5f7; }
+  h2 .date, h3 { color: #a1a1a6; }
+  a { color: #4ea1ff; }
+}</style></head><body><h2>1.5.3<span class="date">2026-11-14</span></h2><h3>Added</h3><ul><li><strong>Service times on one plan.</strong> When a plan has more than one service time (9:00 and 11:00), pick which one you're running from the plan chip. Item times, auto-start, checklist due times and reminders follow it, and each service time gets its own checklist.</li><li><strong>Move to the next service time.</strong> Once the 9:00 is finished or its end time passes with nothing timing, the dashboard switches to the 11:00 on its own. It never moves on to another day's plan. On by default; turn it off in Settings → Planning Center → Service times or from the time picker.</li><li><strong>Linked items fire automations without timing.</strong> When ProPresenter goes to content linked to a plan item, that item's automations, like song key cues, now fire even before service timing starts, so keys follow along in rehearsal. Nothing is timed until timing starts. On by default; turn it off in Settings → Planning Center → Linked items. Automations must be enabled.</li><li><strong>One-click Facebook sign-in.</strong> Connect Facebook with a short code at facebook.com/device, using ProductionDeck's own Meta app. No developer app of your own is needed.</li></ul><h3>Fixed</h3><ul><li>Planning Center accounts with more than 25 service types now list all of them.</li><li>Plans without a service time no longer show at the wrong hour (a 9:00 AM plan read as 3:00 AM).</li></ul></body></html>
+]]></description>
+      <enclosure url="https://github.com/notandrewjones/productiondeck-releases/releases/download/v1.5.3/ProductionDeck-1.5.3.zip" length="13102425" type="application/octet-stream" sparkle:edSignature="WolVzbevt0A9c8JIUH75Wl1gJz/HGgeX30f7NQm3hitgYNFw39YLs4lJUaygGs8tW/Tgkh5z+zfSnV+5tjmYCw=="></enclosure>
+    </item>
+    <item>
       <title>Version 1.5.2</title>
       <pubDate>Sun, 01 Nov 2026 16:19:01 GMT</pubDate>
       <sparkle:version>45</sparkle:version>
@@ -167,6 +193,6 @@ a { color: #0066cc; }
     </item>
   </channel>
 </rss><!-- sparkle-signatures:
-edSignature: L4xUi2dmNMYDv6uTCfrMGdLqtqVFfjCjcH3yg3PLYKXex6PhzFbjWG98cOqHjGcnpFnfzk91RssfvIfBJwUsAg==
-length: 49942
+edSignature: VICy6olofB1F8lwDZwRjVeULFBaGdOy18zy9FsWLjC47u7FA/c6K5d7QYH5kczdmyS9eo7Nfms0W6i1SpvDwBg==
+length: 53049
 -->
